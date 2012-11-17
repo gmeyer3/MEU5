@@ -5,9 +5,9 @@
 # http://www.sequelpro.com/
 # http://code.google.com/p/sequel-pro/
 #
-# Host: 127.0.0.1 (MySQL 5.1.44)
+# Host: localhost (MySQL 5.1.44)
 # Database: meu5_base
-# Generation Time: 2012-10-27 23:44:01 +0000
+# Generation Time: 2012-11-17 18:00:05 +0000
 # ************************************************************
 
 
@@ -107,7 +107,7 @@ LOCK TABLES `company_locations` WRITE;
 
 INSERT INTO `company_locations` (`ID`, `address_1`, `address_2`, `city`, `state`, `postal`, `phone_1`, `phone_2`, `fax`, `email_1`, `email_2`, `enabled`, `priority`, `is_primary_location`)
 VALUES
-	(5,'246 Main','','Orlando','FL','32803','444.666.7777','444.777.8888','','us@we.com','',1,77,0);
+	(5,'246 Main','','Orlando','FL','32803','444.666.7777','444.777.8888','','us@we.com','',1,77,1);
 
 /*!40000 ALTER TABLE `company_locations` ENABLE KEYS */;
 UNLOCK TABLES;
